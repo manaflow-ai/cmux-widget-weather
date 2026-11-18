@@ -1,0 +1,10 @@
+{
+  "//": "The SDK resolves from source in a cmux checkout next to this repository (../cmux), so the tests run with no install.",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "cmux-extension-sdk": ["../cmux/cmux-tui/crates/cmux-extension-sdk/typescript/src/index.ts"],
+      "cmux-extension-sdk/testing": ["../cmux/cmux-tui/crates/cmux-extension-sdk/typescript/src/testing.ts"]
+    }
+  }
+}

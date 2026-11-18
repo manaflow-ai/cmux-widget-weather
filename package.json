@@ -1,0 +1,9 @@
+{
+  "name": "cmux-widget-weather",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "description": "The cmux/weather widget. Tests resolve the extension SDK from a cmux checkout next to this one (../cmux).",
+  "devDependencies": {
+    "cmux-extension-sdk": "file:../cmux/cmux-tui/crates/cmux-extension-sdk/typescript"
+  }
+}
